@@ -1,1 +1,1 @@
-연구 결과 저장용
+Research results..
