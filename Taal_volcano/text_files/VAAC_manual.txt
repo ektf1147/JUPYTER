@@ -1,0 +1,76 @@
+* Example of Volcanic Ash Advisory Text
+  (from Tokyo VAAC; ds.data.jma.go.jp)
+
+1) FVFE01 RJTD 120900 
+ => None
+    
+2) VA ADVISORY
+ => This is Volcanic Ash (VA) Advisory
+    
+3) DTG: 20200112/0900Z
+ => This advisory was issued at 2020.01.12, 09:00 UTC
+    (DTG : Date and Time)
+        
+4) VAAC: TOKYO
+ => Tokyo VAAC issued this advisory
+
+5) VOLCANO: TAAL 273070
+  => Volcano information with volcano number
+
+6) PSN: N1400 E12100
+  => Volcano position (14 N, 121 E)
+
+7) AREA: PHILIPPINES
+  => Area where volcano is located (Philippines)
+
+8) SUMMIT ELEV: 311M
+  => elivation of volcano (311 m)
+
+9) ADVISORY NR: 2020/3
+  => Advisory number
+
+10) INFO SOURCE: HIMAWARI-8 DARWIN-VAAC
+  => Information source to issue this advisory
+     (Himawari-8 satellite and DARWIN-VAAC)
+     phivolcs : 필리핀 화산지진 연구소
+    
+11) AVIATION COLOUR CODE: NIL
+   => None
+
+12) ERUPTION DETAILS: VA EMISSIONS CONTINUING
+   => Volcano activity
+      (emission is continuing)
+    
+13) OBS VA DTG: 12/0820Z
+   => Observed (OBS) Volcanic Ash (VA) Date and Time (DTG)
+      (Volcanic ash was observed at 2020.01.12 08:20 UTC)
+    
+14) OBS VA CLD: SFC/FL550 N1356 E12057 - N1402 E12040 - N1426 E12032 -
+N1504 E12045 - N1507 E12057 - N1429 E12113 - N1401 E12106 MOV N 45KT
+   => Position and Height of Observed Volcanic Ash Cloud (CLD)
+      SFC/FL550 : SFC (bottom) and Flight Level (FL) 55000 ft (16.7 km)
+            
+
+15) FCST VA CLD +6 HR: 12/1420Z SFC/FL550 N2023 E12309 - N1743 E12325 -
+N1444 E12237 - N1354 E12037 - N1915 E12132
+   => Position and Height of 6 hr Forecast (FCST) Volcanic Ash Cloud (CLD)
+      SFC/FL550 : SFC (bottom) and Flight Level (FL) 55000 ft (16.7 km)
+            
+16)FCST VA CLD +12 HR: 12/2020Z SFC/FL550 N2640 E13014 - N2112 E12801 -
+N1547 E12446 - N1342 E12045 - N1813 E12128 - N2550 E12741
+   => Position and Height of 12 hr Forecast (FCST) Volcanic Ash Cloud (CLD)
+
+17)FCST VA CLD +18 HR: 13/0220Z SFC/FL550 N3238 E14202 - N3154 E14308 -
+N2455 E13410 - N1646 E12712 - N1315 E12059 - N1924 E12239 - N2735
+E13038
+   => Position and Height of 18 hr Forecast (FCST) Volcanic Ash Cloud (CLD)
+
+
+18) RMK: VA HEIGHT UPDATED TO FL550 BASED ON SATELLITE DATA AND NWP
+DATA.
+   => Remark (RMK)
+      : Volcanic Ash Height is updated to 16.7 km based on Himawari-8 and NWP data.
+    
+19) NXT ADVISORY: 20200112/1200Z=
+    => Next (NXT) Advisory : 2020.01.12 12:00 UTC
+    
