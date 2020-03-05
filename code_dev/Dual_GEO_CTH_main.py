@@ -1,9 +1,6 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[3]:
-
-
 # ------------------------------------------------------------------------------
 # Description:
 #
@@ -34,6 +31,7 @@
 # (2) Wylie et al., 1998
 #     Cloud-Top Heights from GOES-8 and GOES-9 Stereoscopic Imagery.
 # (3) Seiz et al., 2007
+#     Multiview Cloud-Top Height and Wind Retrieval with Photogrammetric Method:
 #     Application to Meteosat-8 HRV Observations.
 # (4) Zaksek et al., 2013
 #     Monitoring volcanic ash cloud top height through simultaneous retrieval of
@@ -46,13 +44,7 @@
 # End of header ----------------------------------------------------------------                                
 
 
-# In[2]:
-
-
 import numpy as np
-
-
-# In[ ]:
 
 
 
