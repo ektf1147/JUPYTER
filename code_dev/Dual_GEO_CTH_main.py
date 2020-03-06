@@ -44,8 +44,37 @@
 # End of header ----------------------------------------------------------------                                
 
 
-import numpy as np
+# ## 알고리즘 준비
+# 1. 필요한 라이브러리 불러오기
 
+import sys
+sys.path.append('/sdata_storage/jhlee/JUPYTER/code_dev/module/')
+import numpy as np
+import read_satellite_data as read
+
+
+# 2. 입력 변수 정의
+
+himawari8_path = '/storage1/jhlee/NMSC_2018/Himawari_8_AHI/'
+himawari8_date1 = '201711030530'
+himawari8_date2 = '201711030540'
+fy2e_path = '/storage1/jhlee/NMSC_2018/FY_2E_VISSR/'
+fy2e_date = '20171103_0530'
+
+
+# ## 알고리즘 시작
+# 
+# 1. 위성자료 읽기
+# - Level 1B 위성 자료 읽기 (디지털 값)
+
+himawari8 = read.himawari8()
+fy2e = read.fy2e()
+himawari8_DN1 = himawari8.read_himawari8_L1b(himawari8_path, himawari8_date1)
+himawari8_DN2 = himawari8.read_himawari8_L1b(himawari8_path, himawari8_date2)
+fy2e_DN = fy2e.read_fy2e_L1b(fy2e_path, fy2e_date)
+
+
+# - 위성 위/경도 자료 읽기
 
 
 
