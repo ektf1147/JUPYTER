@@ -1,1 +1,1 @@
-# Research results..
+연구결과 모음
