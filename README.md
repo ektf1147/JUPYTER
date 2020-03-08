@@ -5,4 +5,4 @@
  - Python3 version.
  
 ## Taal_volcano 
- - apply delevloped algorithm to Taal volcano case.
+ - Apply the algorithm to the Taal volcano eruption.
