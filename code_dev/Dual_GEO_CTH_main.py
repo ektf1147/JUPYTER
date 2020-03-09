@@ -10,7 +10,7 @@
 # Method:
 #
 # (1) Reads two GEO digital number.
-# (2) Selects cloud target and remap images.
+# (2) Selects cloud target and slice images.
 # (3) Image matching based on the NCC method.
 # (4) Cloud top height retrieval by the iterative process.
 # (5) Post-process cloud top height products.
@@ -52,7 +52,9 @@ import sys
 sys.path.append('/sdata_storage/jhlee/JUPYTER/code_dev/module/')
 import numpy as np
 import read_satellite_data as read
+import slice_satellite_data as slice
 import remap_satellite_data as remap
+import matplotlib.pyplot as plt
 
 
 # 2. 입력 변수 정의
@@ -94,15 +96,76 @@ fy2e_lat, fy2e_lon = fy2e.read_latlon(fy2e_path)
 
 # 2. 위성자료 리매핑
 #  - 목표 영역 slicing
-#  - image remapping
+#  - image sliceping
 
-# Himawari8 목표 영역 slicing
-cut_himawari8_DN1 = remap.cut_with_latlon_geos(himawari8_DN1, 'himawari8', left_upper_lat, left_upper_lon, right_lower_lat, right_lower_lon)
-cut_himawari8_DN2 = remap.cut_with_latlon_geos(himawari8_DN2, 'himawari8', left_upper_lat, left_upper_lon, right_lower_lat, right_lower_lon)
-cut_himawari8_lat = remap.cut_with_latlon_geos(himawari8_lat, 'himawari8', left_upper_lat, left_upper_lon, right_lower_lat, right_lower_lon)
-cut_himawari8_lon = remap.cut_with_latlon_geos(himawari8_lon, 'himawari8', left_upper_lat, left_upper_lon, right_lower_lat, right_lower_lon)
+# Himawari8 목표 영역 slicing (Himawari8 영역은 조금 더 크게 한다.)
+cut_himawari8_DN1 = slice.cut_with_latlon_geos(himawari8_DN1, 'himawari8',
+                                               left_upper_lat + 3 , left_upper_lon - 3, 
+                                               right_lower_lat - 3, right_lower_lon + 3)
+cut_himawari8_DN2 = slice.cut_with_latlon_geos(himawari8_DN2, 'himawari8', 
+                                               left_upper_lat + 3 , left_upper_lon - 3, 
+                                               right_lower_lat - 3, right_lower_lon + 3)
+cut_himawari8_lat = slice.cut_with_latlon_geos(himawari8_lat, 'himawari8', 
+                                               left_upper_lat + 3 , left_upper_lon - 3,
+                                               right_lower_lat - 3, right_lower_lon + 3)
+cut_himawari8_lon = slice.cut_with_latlon_geos(himawari8_lon, 'himawari8', 
+                                               left_upper_lat + 3 , left_upper_lon - 3,
+                                               right_lower_lat - 3, right_lower_lon + 3)
 
 # FY-2E 목표 영역 slicing
-cut_fy2e_lat = remap.cut_with_latlon_geos(fy2e_lat, 'fy2e', left_upper_lat, left_upper_lon, right_lower_lat, right_lower_lon)
-cut_fy2e_lon = remap.cut_with_latlon_geos(fy2e_lon, 'fy2e', left_upper_lat, left_upper_lon, right_lower_lat, right_lower_lon)
+cut_fy2e_DN = slice.cut_with_latlon_geos(fy2e_DN,'fy2e', 
+                                         left_upper_lat + 1, left_upper_lon - 1, 
+                                         right_lower_lat - 1, right_lower_lon + 1)
+cut_fy2e_lat = slice.cut_with_latlon_geos(fy2e_lat, 'fy2e', 
+                                          left_upper_lat + 1, left_upper_lon - 1, 
+                                          right_lower_lat - 1, right_lower_lon + 1)
+cut_fy2e_lon = slice.cut_with_latlon_geos(fy2e_lon, 'fy2e', 
+                                          left_upper_lat + 1, left_upper_lon - 1, 
+                                          right_lower_lat - 1, right_lower_lon + 1)
+
+# 필요없는 변수 메모리 삭제
+del(himawari8_DN1); del(himawari8_DN2); del(himawari8_lat); del(himawari8_lon)
+del(fy2e_DN); del(fy2e_lat); del(fy2e_lon)
+
+
+# ## remap (inverse distance weighting test)
+
+x = [-47.6, -48.9, -48.2, -48.9, -47.6, -48.6]
+y = [-23.4, -24.0, -23.9, -23.1, -22.7, -22.5]
+z = [27.0,  33.4,  34.6,  18.2,   30.8, 42.8]
+
+
+xi = [-48.0530600]
+yi = [-23.5916700]
+
+
+remap.idwr(x,y,z,xi,yi)
+
+
+import matplotlib.pyplot as plt
+import matplotlib.style as style
+style.available
+style.use('seaborn-white')
+dists = [50.93664088924365, 97.50798854810864, 37.44644402279387, 102.4130216426453, 109.55825855482198, 133.81580425549404]
+len(dists)
+for i in range(len(x)):
+    plt.scatter(x = x[i],
+                y = y[i],
+                s = 50)
+    plt.annotate(xy = (x[i],y[i]),      
+                 s=z[i])
+    plt.annotate(xy = ( ((x[i] + xi[0]) / 2), ((y[i] + yi[0]) / 2)),      
+                 s= 'dist='+ str(np.round(dists[i],2))+ ' km')
+    lcx = [xi[0], x[i]]
+    lcy = [yi[0], y[i]]
+    plt.plot(lcx,lcy)    
+plt.scatter(xi,yi,
+            c='black', s=230, label='unknown', marker='*')
+plt.legend(bbox_to_anchor=(1.04,1), loc="upper left")
+plt.tight_layout()
+plt.grid(True)
+plt.show()
+
+
+
 

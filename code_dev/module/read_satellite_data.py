@@ -54,7 +54,7 @@ class fy2e:
 
         # L1B 자료 읽기
         f = Dataset(fname, 'r')
-        fy2e_DN = f.variables['NOMChannelVIS'][:]
+        fy2e_DN = f.variables['NOMChannelVIS1KM'][:]
         fy2e_clc = f.variables['NOMCloudClassification'][:] 
 
         return fy2e_DN, fy2e_clc
@@ -65,10 +65,10 @@ class fy2e:
         # 입력 파일 이름 정의
         fname = fy2e_path + 'NOM_ITG_9152_9152_0E0N_LE.dat'
         
-        # 위/경도 자료 읽기
-        fy2e_lonlat = np.fromfile(fname, dtype = np.float32).reshape(self.ncol,self.nlin,2)
-               
-        fy2e_lon = fy2e_lonlat[:,:,0] + self.lon_fy2e
-        fy2e_lat = fy2e_lonlat[:,:,1]
+        # 위/경도 자료 읽기 (2020/03/09 fixed.)
+        fy2e_lonlat = np.fromfile(fname, dtype = self.dtype).reshape(2,self.ncol,self.nlin)      
+        
+        fy2e_lon = fy2e_lonlat[0] + self.lon_fy2e
+        fy2e_lat = fy2e_lonlat[1]
 
         return fy2e_lat, fy2e_lon
