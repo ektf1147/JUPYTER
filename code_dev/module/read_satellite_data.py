@@ -55,7 +55,7 @@ class fy2e:
         # L1B 자료 읽기
         f = Dataset(fname, 'r')
         fy2e_DN = f.variables['NOMChannelVIS1KM'][:]
-        fy2e_clc = f.variables['NOMCloudClassification'][:] 
+        fy2e_clc = f.variables['NOMCloudClassification'][:].repeat(4, axis = 0).repeat(4, axis = 1)
 
         return fy2e_DN, fy2e_clc
     
