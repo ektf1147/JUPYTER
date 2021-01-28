@@ -1,0 +1,1 @@
+https://stackoverflow.com/questions/54201961/how-to-tell-f2py-module-to-look-in-current-directory-for-shared-object-dependenc
