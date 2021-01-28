@@ -1,0 +1,717 @@
+[E 22:47:10.132 LabApp] Exception while loading config file /home/jhlee/.jupyter/jupyter_notebook_config.py
+    Traceback (most recent call last):
+      File "/home/jhlee/anaconda3/envs/JUPYTER/lib/python3.8/site-packages/traitlets/config/application.py", line 563, in _load_config_files
+        config = loader.load_config()
+      File "/home/jhlee/anaconda3/envs/JUPYTER/lib/python3.8/site-packages/traitlets/config/loader.py", line 457, in load_config
+        self._read_file_as_dict()
+      File "/home/jhlee/anaconda3/envs/JUPYTER/lib/python3.8/site-packages/traitlets/config/loader.py", line 489, in _read_file_as_dict
+        py3compat.execfile(conf_filename, namespace)
+      File "/home/jhlee/anaconda3/envs/JUPYTER/lib/python3.8/site-packages/ipython_genutils/py3compat.py", line 198, in execfile
+        exec(compiler(f.read(), fname, 'exec'), glob, loc)
+      File "/home/jhlee/.jupyter/jupyter_notebook_config.py", line 7
+        c.NotebookApp.ResourceUseDisplay.mem_limit= (Size Of GB) *1024*1024*1024
+                                                          ^
+    SyntaxError: invalid syntax
+[I 22:47:10.575 LabApp] [nb_conda_kernels] enabled, 4 kernels found
+[I 22:47:11.726 LabApp] Loading IPython parallel extension
+[I 22:47:11.751 LabApp] [jupyter_nbextensions_configurator] enabled 0.4.1
+[I 22:47:12.093 LabApp] JupyterLab extension loaded from /home/jhlee/anaconda3/envs/JUPYTER/lib/python3.8/site-packages/jupyterlab
+[I 22:47:12.093 LabApp] JupyterLab application directory is /home/jhlee/anaconda3/envs/JUPYTER/share/jupyter/lab
+[I 22:47:14.393 LabApp] [nb_conda] enabled
+[I 22:47:14.439 LabApp] Serving notebooks from local directory: /storage1/jhlee
+[I 22:47:14.439 LabApp] The Jupyter Notebook is running at:
+[I 22:47:14.439 LabApp] http://165.132.27.211.xip.io:8888/
+[I 22:47:14.439 LabApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[W 22:47:16.597 LabApp] 404 GET /github?1609594978368 (165.132.26.252) 299.97ms referer=http://165.132.27.211.xip.io:8888/lab?
+[I 22:47:17.194 LabApp] Build is up to date
+TermSocket.open: 1
+[I 22:47:17.797 LabApp] New terminal with specified name: 1
+TermSocket.open: Opened 1
+[W 22:47:18.519 LabApp] 404 GET /api/contents/Dual_GEO_CTH_algorithm_v2/module?1609594980590 (165.132.26.252): No such file or directory: Dual_GEO_CTH_algorithm_v2/module
+[W 22:47:18.520 LabApp] No such file or directory: Dual_GEO_CTH_algorithm_v2/module
+[W 22:47:18.520 LabApp] 404 GET /api/contents/Dual_GEO_CTH_algorithm_v2/module?1609594980590 (165.132.26.252) 0.97ms referer=http://165.132.27.211.xip.io:8888/lab?
+Installing jupyterlab_powerpoint handlers
+-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/[I 22:48:19.711 LabApp] EOF on FD 20; stopping reading
+[I 22:48:19.812 LabApp] Terminal 1 closed
+Websocket closed
+[I 22:48:24.016 LabApp] New terminal with automatic name: 1
+TermSocket.open: 1
+TermSocket.open: Opened 1
+[I 22:49:01.978 LabApp] Kernel started: 05203705-f796-4487-a3fb-abfddb93ff36
+[I 22:49:02.340 LabApp] Starting buffering for 05203705-f796-4487-a3fb-abfddb93ff36:09ebd7c1-084c-4e61-910a-5a95e2065062
+[I 22:50:50.771 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/dual_geo_cth_main.py
+[I 22:51:38.912 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/dual_geo_cth_main.py
+[I 22:51:53.635 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/dual_geo_cth_main.py
+[I 22:52:05.440 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/dual_geo_cth_main.py
+[I 22:52:15.445 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/dual_geo_cth_main.py
+[I 22:52:22.946 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/dual_geo_cth_main.py
+[I 22:52:28.728 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/dual_geo_cth_main.py
+[I 22:52:37.813 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/dual_geo_cth_main.py
+[I 22:53:07.817 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/dual_geo_cth_main.py
+[I 22:54:18.470 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/define_input_parameters.py
+[I 22:54:51.171 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/define_input_parameters.py
+[I 22:55:02.875 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/define_input_parameters.py
+[I 22:55:07.828 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/dual_geo_cth_main.py
+[I 22:55:33.201 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/dual_geo_cth_main.py
+[I 22:55:46.419 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/dual_geo_cth_main.py
+[I 22:56:06.119 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/dual_geo_cth_main.py
+[I 22:56:33.481 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/dual_geo_cth_main.py
+[I 22:57:13.234 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/dual_geo_cth_main.py
+[I 22:57:21.087 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/dual_geo_cth_main.py
+[I 22:57:35.415 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/module/read_satellite_data.py
+[I 22:58:26.011 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/module/read_satellite_data.py
+[I 22:58:31.298 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/module/read_satellite_data.py
+[I 22:59:36.655 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/module/read_satellite_data.py
+[I 22:59:49.684 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/module/read_satellite_data.py
+[I 23:00:33.101 LabApp] Kernel started: 4585d33d-bbac-4fec-a1e7-ba0e974cffd9
+[I 23:00:42.648 LabApp] Kernel restarted: 4585d33d-bbac-4fec-a1e7-ba0e974cffd9
+[I 23:00:56.334 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/define_input_parameters.py
+[I 23:01:00.495 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/define_input_parameters.py
+[I 23:01:47.262 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/dual_geo_cth_main.py
+[I 23:02:17.489 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/module/write_output.py
+[I 23:02:32.646 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/plot_code/Plot_Dual_GEO_CTH.ipynb
+[I 23:03:43.852 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/module/write_output.py
+[I 23:05:18.025 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/module/write_output.py
+[I 23:05:28.697 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/module/write_output.py
+[I 23:05:33.772 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/module/write_output.py
+[I 23:06:09.384 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/dual_geo_cth_main.py
+[I 23:06:10.091 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/dual_geo_cth_main.py
+[I 23:06:15.779 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/define_input_parameters.py
+[I 23:06:31.070 LabApp] Kernel shutdown: 05203705-f796-4487-a3fb-abfddb93ff36
+[I 09:39:17.448 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/plot_code/Plot_Dual_GEO_CTH.ipynb
+[I 09:39:22.637 LabApp] Kernel restarted: 4585d33d-bbac-4fec-a1e7-ba0e974cffd9
+[I 09:41:17.478 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/plot_code/Plot_Dual_GEO_CTH.ipynb
+[I 10:46:38.302 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/plot_code/Plot_Dual_GEO_CTH.ipynb
+[I 10:46:41.828 LabApp] Kernel restarted: 4585d33d-bbac-4fec-a1e7-ba0e974cffd9
+[I 10:48:38.786 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/plot_code/Plot_Dual_GEO_CTH.ipynb
+[I 11:02:16.406 LabApp] EOF on FD 18; stopping reading
+[I 11:02:16.506 LabApp] Terminal 1 closed
+Websocket closed
+[I 11:02:24.590 LabApp] New terminal with automatic name: 1
+TermSocket.open: 1
+TermSocket.open: Opened 1
+[I 11:04:14.175 LabApp] EOF on FD 16; stopping reading
+[I 11:04:14.275 LabApp] Terminal 1 closed
+Websocket closed
+[I 11:04:19.147 LabApp] New terminal with automatic name: 1
+TermSocket.open: 1
+TermSocket.open: Opened 1
+[I 11:05:44.002 LabApp] EOF on FD 16; stopping reading
+[I 11:05:44.102 LabApp] Terminal 1 closed
+Websocket closed
+[I 11:06:23.520 LabApp] New terminal with automatic name: 1
+TermSocket.open: 1
+TermSocket.open: Opened 1
+[I 11:07:11.178 LabApp] EOF on FD 16; stopping reading
+[I 11:07:11.278 LabApp] Terminal 1 closed
+Websocket closed
+[I 11:07:16.068 LabApp] New terminal with automatic name: 1
+TermSocket.open: 1
+TermSocket.open: Opened 1
+[I 11:07:32.988 LabApp] New terminal with automatic name: 2
+TermSocket.open: 2
+TermSocket.open: Opened 2
+[I 11:07:51.094 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/plot_code/Plot_Dual_GEO_CTH.ipynb
+[I 11:07:54.654 LabApp] Kernel restarted: 4585d33d-bbac-4fec-a1e7-ba0e974cffd9
+[I 11:09:51.125 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/plot_code/Plot_Dual_GEO_CTH.ipynb
+[I 11:18:13.176 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/plot_code/Plot_Dual_GEO_CTH.ipynb
+[I 11:18:15.990 LabApp] Kernel restarted: 4585d33d-bbac-4fec-a1e7-ba0e974cffd9
+[I 11:20:13.209 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/plot_code/Plot_Dual_GEO_CTH.ipynb
+[I 11:29:17.623 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/plot_code/Plot_Dual_GEO_CTH.ipynb
+[I 11:29:20.195 LabApp] Kernel restarted: 4585d33d-bbac-4fec-a1e7-ba0e974cffd9
+[I 11:31:17.734 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/plot_code/Plot_Dual_GEO_CTH.ipynb
+Websocket closed
+Websocket closed
+[I 11:59:46.921 LabApp] Starting buffering for 4585d33d-bbac-4fec-a1e7-ba0e974cffd9:78046755-d024-4cd7-9f3b-e17fcc7dd6c9
+[W 12:04:24.025 LabApp] 404 GET /github?1609729204355 (165.132.26.252) 1.68ms referer=http://165.132.27.211.xip.io:8888/lab?
+[I 12:04:24.454 LabApp] Build is up to date
+TermSocket.open: 2
+TermSocket.open: Opened 2
+[I 12:04:35.373 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/plot_code/Plot_Dual_GEO_CTH.ipynb
+[I 12:04:38.181 LabApp] Kernel restarted: 4585d33d-bbac-4fec-a1e7-ba0e974cffd9
+[I 12:06:35.923 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/plot_code/Plot_Dual_GEO_CTH.ipynb
+[I 12:09:37.908 LabApp] EOF on FD 18; stopping reading
+[I 12:09:38.009 LabApp] Terminal 1 closed
+[W 12:09:38.460 LabApp] 404 DELETE /api/terminals/1?1609729518788 (165.132.26.252): Terminal not found: '1'
+[W 12:09:38.460 LabApp] Terminal not found: '1'
+[W 12:09:38.460 LabApp] 404 DELETE /api/terminals/1?1609729518788 (165.132.26.252) 0.62ms referer=http://165.132.27.211.xip.io:8888/lab?
+[I 12:09:39.472 LabApp] EOF on FD 37; stopping reading
+[I 12:09:39.572 LabApp] Terminal 2 closed
+Websocket closed
+[I 12:09:44.722 LabApp] New terminal with automatic name: 1
+TermSocket.open: 1
+TermSocket.open: Opened 1
+[I 12:18:56.459 LabApp] Kernel started: e76d5eac-314f-43e0-991e-d49773248515
+[I 12:19:20.855 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/dual_geo_cth_main.py
+[I 12:19:22.432 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/dual_geo_cth_main.py
+[I 12:20:01.112 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/dual_geo_cth_main.py
+[I 12:20:06.298 LabApp] Starting buffering for e76d5eac-314f-43e0-991e-d49773248515:559493d9-6564-4903-b5fa-97dfca76a185
+[I 14:58:25.736 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/dual_geo_cth_main.py
+[I 15:06:41.185 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/module/read_satellite_data.py
+[I 15:07:00.552 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/module/read_satellite_data.py
+[I 15:07:13.874 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/module/read_satellite_data.py
+[I 15:07:25.318 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/module/read_satellite_data.py
+[I 15:07:49.378 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/module/read_satellite_data.py
+[I 15:08:16.210 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/module/read_satellite_data.py
+[I 15:08:46.027 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/module/read_satellite_data.py
+[I 15:11:36.407 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/module/read_satellite_data.py
+[I 15:11:39.485 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/module/read_satellite_data.py
+[I 15:11:54.491 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/module/read_satellite_data.py
+[I 15:12:59.701 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/module/read_satellite_data.py
+[I 15:13:16.606 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/module/read_satellite_data.py
+[I 15:13:20.251 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/module/read_satellite_data.py
+[I 15:13:25.815 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/module/read_satellite_data.py
+[I 15:13:30.065 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/module/read_satellite_data.py
+[I 15:13:34.163 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/module/read_satellite_data.py
+[I 15:13:37.874 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/module/read_satellite_data.py
+[I 15:13:39.490 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/module/read_satellite_data.py
+[I 15:13:45.660 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/module/read_satellite_data.py
+[I 15:13:53.824 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/module/read_satellite_data.py
+[I 15:14:41.337 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/module/read_satellite_data.py
+[I 15:15:03.480 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/module/read_satellite_data.py
+[I 15:15:15.788 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/module/read_satellite_data.py
+[I 15:15:26.477 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/dual_geo_cth_main.py
+[I 15:15:29.373 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/dual_geo_cth_main.py
+[I 15:16:30.812 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/module/read_satellite_data.py
+[I 15:16:52.124 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/module/read_satellite_data.py
+[I 15:17:49.352 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/module/read_satellite_data.py
+[I 15:21:20.552 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/dual_geo_cth_main.py
+[I 15:21:26.869 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/dual_geo_cth_main.py
+[I 15:21:38.428 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/dual_geo_cth_main.py
+[I 15:21:47.282 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/dual_geo_cth_main.py
+[I 15:21:56.319 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/dual_geo_cth_main.py
+[I 15:22:12.094 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/module/read_satellite_data.py
+[I 15:22:29.053 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/module/read_satellite_data.py
+[I 15:25:01.765 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/dual_geo_cth_main.py
+[I 16:29:43.122 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/module/read_satellite_data.py
+[I 16:30:15.084 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/module/read_satellite_data.py
+[I 16:31:13.387 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/dual_geo_cth_main.py
+[I 16:31:47.256 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/dual_geo_cth_main.py
+[I 16:32:00.576 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/module/read_satellite_data.py
+[I 16:32:46.493 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/dual_geo_cth_main.py
+[I 16:34:08.332 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/dual_geo_cth_main.py
+[I 16:34:29.571 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/dual_geo_cth_main.py
+[I 16:34:31.154 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/dual_geo_cth_main.py
+[I 16:45:10.386 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/dual_geo_cth_main.py
+[I 16:45:36.429 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/dual_geo_cth_main.py
+[I 16:46:28.903 LabApp] New terminal with automatic name: 2
+TermSocket.open: 2
+TermSocket.open: Opened 2
+[I 16:53:31.573 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/module/read_satellite_data.py
+[I 16:53:48.294 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/module/read_satellite_data.py
+[I 16:55:38.051 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/dual_geo_cth_main.py
+[I 16:55:48.308 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/module/read_satellite_data.py
+[I 16:56:20.698 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/module/read_satellite_data.py
+[I 16:56:37.904 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/dual_geo_cth_main.py
+[I 16:56:58.333 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/dual_geo_cth_main.py
+[I 16:57:19.126 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/dual_geo_cth_main.py
+[I 16:57:38.188 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/dual_geo_cth_main.py
+[I 16:59:20.272 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/dual_geo_cth_main.py
+[I 16:59:25.468 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/dual_geo_cth_main.py
+[I 17:00:20.803 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/module/read_satellite_data.py
+[I 17:00:30.573 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/module/read_satellite_data.py
+[I 17:00:36.873 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/module/read_satellite_data.py
+[I 17:00:55.708 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/module/read_satellite_data.py
+[I 17:01:01.117 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/module/read_satellite_data.py
+[I 17:01:03.193 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/module/read_satellite_data.py
+[I 17:01:25.484 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/dual_geo_cth_main.py
+[I 17:01:45.218 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/dual_geo_cth_main.py
+[I 17:02:15.140 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/dual_geo_cth_main.py
+[I 17:02:23.847 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/dual_geo_cth_main.py
+[I 17:02:34.705 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/dual_geo_cth_main.py
+[I 17:02:39.149 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/dual_geo_cth_main.py
+[I 17:02:58.194 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/dual_geo_cth_main.py
+[I 17:03:11.083 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/dual_geo_cth_main.py
+[I 17:03:14.471 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/dual_geo_cth_main.py
+[I 17:03:16.983 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/dual_geo_cth_main.py
+[I 17:03:25.342 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/dual_geo_cth_main.py
+[I 17:03:27.428 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/dual_geo_cth_main.py
+[I 17:10:26.172 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/dual_geo_cth_main.py
+[I 17:10:40.663 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/module/read_satellite_data.py
+[I 17:10:48.986 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/module/read_satellite_data.py
+Websocket closed
+[I 19:43:59.708 LabApp] Starting buffering for e76d5eac-314f-43e0-991e-d49773248515:a43c90c6-dfce-4c39-931f-2ea438fa2450
+Websocket closed
+[I 19:43:59.709 LabApp] Starting buffering for 4585d33d-bbac-4fec-a1e7-ba0e974cffd9:c670e448-80db-42c3-9f5c-4a1b85a85728
+[W 19:44:01.065 LabApp] 404 GET /github?1609756781165 (165.132.26.252) 1.60ms referer=http://165.132.27.211.xip.io:8888/lab?
+[I 19:44:01.806 LabApp] Starting buffering for e76d5eac-314f-43e0-991e-d49773248515:002d3cc1-82c9-4867-909a-1d240a1f2f30
+TermSocket.open: 2
+TermSocket.open: Opened 2
+[I 19:44:02.044 LabApp] Build is up to date
+[I 19:45:02.422 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/dual_geo_cth_main.py
+[I 19:45:30.221 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/dual_geo_cth_main.py
+[I 19:45:32.604 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/dual_geo_cth_main.py
+[I 19:46:11.375 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/dual_geo_cth_main.py
+[I 19:46:15.454 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/dual_geo_cth_main.py
+[I 19:46:47.432 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/dual_geo_cth_main.py
+[I 19:47:00.132 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/dual_geo_cth_main.py
+[I 19:47:20.273 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/dual_geo_cth_main.py
+[I 19:47:47.609 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/dual_geo_cth_main.py
+[I 19:48:12.937 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/dual_geo_cth_main.py
+[I 19:48:28.048 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/dual_geo_cth_main.py
+[I 19:49:53.963 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/dual_geo_cth_main.py
+[I 19:50:14.855 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/dual_geo_cth_main.py
+[I 19:50:27.255 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/dual_geo_cth_main.py
+[I 19:50:40.268 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/dual_geo_cth_main.py
+[I 19:50:42.556 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/dual_geo_cth_main.py
+[I 19:51:16.865 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/dual_geo_cth_main.py
+[I 19:51:29.239 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/dual_geo_cth_main.py
+[I 19:51:35.538 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/dual_geo_cth_main.py
+[I 19:52:40.148 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/dual_geo_cth_main.py
+[I 19:52:49.343 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/dual_geo_cth_main.py
+[I 19:53:03.294 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/dual_geo_cth_main.py
+[I 19:53:13.334 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/dual_geo_cth_main.py
+[I 19:53:52.293 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/dual_geo_cth_main.py
+[I 19:54:02.149 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/dual_geo_cth_main.py
+[I 19:56:29.484 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/dual_geo_cth_main.py
+[I 19:57:31.136 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/dual_geo_cth_main.py
+[I 19:58:06.103 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/dual_geo_cth_main.py
+[I 19:58:33.562 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/dual_geo_cth_main.py
+[I 19:58:37.302 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/dual_geo_cth_main.py
+[I 19:58:55.620 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/dual_geo_cth_main.py
+[I 19:59:42.518 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/dual_geo_cth_main.py
+[I 20:00:00.916 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/dual_geo_cth_main.py
+[I 20:00:16.596 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/dual_geo_cth_main.py
+[I 20:00:19.242 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/dual_geo_cth_main.py
+[I 20:00:35.828 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/dual_geo_cth_main.py
+[I 20:00:49.534 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/dual_geo_cth_main.py
+[I 20:00:52.423 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/dual_geo_cth_main.py
+[I 20:02:05.974 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/dual_geo_cth_main.py
+[I 20:02:34.394 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/dual_geo_cth_main.py
+[I 20:04:34.411 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/dual_geo_cth_main.py
+[I 20:04:37.385 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/dual_geo_cth_main.py
+[I 20:06:26.132 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/dual_geo_cth_main.py
+[I 20:06:58.249 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/dual_geo_cth_main.py
+[I 20:07:11.320 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/dual_geo_cth_main.py
+[I 20:08:42.303 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/dual_geo_cth_main.py
+[I 20:08:49.252 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/dual_geo_cth_main.py
+[I 20:09:13.082 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/dual_geo_cth_main.py
+[I 20:09:24.304 LabApp] Copying JUPYTER/Dual_GEO_CTH_algorithm_v2/module/blend_images.py to /JUPYTER/Dual_GEO_CTH_algorithm_v2/module
+[I 20:09:46.926 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/dual_geo_cth_main.py
+[I 20:09:56.630 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/module/resize.py
+[I 20:10:26.080 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/module/resize.py
+[I 20:10:33.072 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/module/resize.py
+[I 20:11:06.935 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/module/resize.py
+[I 20:11:15.992 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/dual_geo_cth_main.py
+[I 20:11:54.786 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/dual_geo_cth_main.py
+[I 20:12:12.071 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/dual_geo_cth_main.py
+[I 20:13:06.565 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/dual_geo_cth_main.py
+[I 20:13:17.152 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/dual_geo_cth_main.py
+[I 20:13:33.488 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/dual_geo_cth_main.py
+[I 20:13:41.493 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/dual_geo_cth_main.py
+[I 20:13:45.353 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/dual_geo_cth_main.py
+[I 20:13:48.474 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/dual_geo_cth_main.py
+[I 20:14:05.748 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/dual_geo_cth_main.py
+[I 20:15:12.781 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/dual_geo_cth_main.py
+[I 20:15:49.963 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/dual_geo_cth_main.py
+[I 20:15:59.545 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/dual_geo_cth_main.py
+[I 20:17:02.497 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/dual_geo_cth_main.py
+[I 20:17:33.788 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/dual_geo_cth_main.py
+[I 20:18:01.198 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/dual_geo_cth_main.py
+[I 20:18:42.548 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/dual_geo_cth_main.py
+[I 20:20:09.956 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/dual_geo_cth_main.py
+[I 20:20:56.492 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/dual_geo_cth_main.py
+[I 20:21:14.929 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/dual_geo_cth_main.py
+[I 20:21:17.401 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/dual_geo_cth_main.py
+[I 20:21:29.871 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/dual_geo_cth_main.py
+[I 20:21:40.660 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/dual_geo_cth_main.py
+[I 20:21:53.605 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/dual_geo_cth_main.py
+[I 20:22:18.057 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/dual_geo_cth_main.py
+[I 20:22:31.467 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/dual_geo_cth_main.py
+[I 20:22:45.137 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/dual_geo_cth_main.py
+[I 20:22:51.718 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/dual_geo_cth_main.py
+[I 20:22:55.213 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/dual_geo_cth_main.py
+[I 20:23:10.937 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/dual_geo_cth_main.py
+[I 20:23:53.057 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/dual_geo_cth_main.py
+[I 20:55:17.293 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/dual_geo_cth_main.py
+[I 20:56:01.776 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/dual_geo_cth_main.py
+[I 20:56:07.203 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/dual_geo_cth_main.py
+[I 20:56:12.978 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/dual_geo_cth_main.py
+[I 20:56:21.549 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/dual_geo_cth_main.py
+[I 20:56:30.776 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/dual_geo_cth_main.py
+[I 20:57:08.428 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/dual_geo_cth_main.py
+[I 20:57:12.832 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/dual_geo_cth_main.py
+[I 20:57:33.048 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/dual_geo_cth_main.py
+[I 20:57:56.642 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/dual_geo_cth_main.py
+[I 20:58:31.800 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/dual_geo_cth_main.py
+[I 20:58:51.987 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/dual_geo_cth_main.py
+[I 20:59:00.602 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/dual_geo_cth_main.py
+[I 20:59:10.688 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/dual_geo_cth_main.py
+[I 20:59:13.608 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/dual_geo_cth_main.py
+[I 20:59:17.514 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/dual_geo_cth_main.py
+[I 20:59:24.649 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/dual_geo_cth_main.py
+[I 20:59:42.785 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/dual_geo_cth_main.py
+[I 20:59:53.575 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/dual_geo_cth_main.py
+[I 20:59:55.506 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/dual_geo_cth_main.py
+[I 21:00:07.730 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/dual_geo_cth_main.py
+[I 21:00:16.688 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/dual_geo_cth_main.py
+[I 21:00:25.624 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/dual_geo_cth_main.py
+[I 21:00:27.983 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/dual_geo_cth_main.py
+[I 21:00:44.262 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/dual_geo_cth_main.py
+[I 21:01:08.584 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/dual_geo_cth_main.py
+[I 21:01:16.137 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/dual_geo_cth_main.py
+[I 21:01:44.343 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/dual_geo_cth_main.py
+[I 21:01:56.943 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/dual_geo_cth_main.py
+[I 21:02:03.926 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/dual_geo_cth_main.py
+[I 21:02:18.211 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/dual_geo_cth_main.py
+[I 21:02:23.535 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/dual_geo_cth_main.py
+[I 21:02:24.861 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/dual_geo_cth_main.py
+[I 21:02:36.558 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/dual_geo_cth_main.py
+[I 21:03:11.286 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/dual_geo_cth_main.py
+[I 21:03:25.852 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/dual_geo_cth_main.py
+[I 21:04:02.752 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/dual_geo_cth_main.py
+[I 21:04:06.168 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/dual_geo_cth_main.py
+[I 21:13:47.246 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/dual_geo_cth_main.py
+[I 21:14:20.263 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/dual_geo_cth_main.py
+[I 21:14:29.787 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/dual_geo_cth_main.py
+[I 21:14:33.166 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/dual_geo_cth_main.py
+[I 21:14:38.365 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/dual_geo_cth_main.py
+[I 21:15:13.692 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/dual_geo_cth_main.py
+[I 21:15:23.349 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/dual_geo_cth_main.py
+[I 21:15:31.670 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/dual_geo_cth_main.py
+[I 21:16:09.167 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/dual_geo_cth_main.py
+[I 21:16:25.648 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/dual_geo_cth_main.py
+[I 21:16:31.351 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/dual_geo_cth_main.py
+[I 21:16:50.282 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/dual_geo_cth_main.py
+[I 21:17:18.467 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/dual_geo_cth_main.py
+[I 21:17:34.940 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/dual_geo_cth_main.py
+[I 21:17:58.027 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/dual_geo_cth_main.py
+[I 21:18:11.993 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/dual_geo_cth_main.py
+[I 21:18:13.086 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/dual_geo_cth_main.py
+[I 21:18:45.205 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/dual_geo_cth_main.py
+[I 21:18:58.836 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/dual_geo_cth_main.py
+[I 21:19:24.639 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/dual_geo_cth_main.py
+[I 21:20:43.664 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/dual_geo_cth_main.py
+[I 21:20:57.654 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/dual_geo_cth_main.py
+[I 21:22:19.423 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/dual_geo_cth_main.py
+[I 21:22:23.743 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/dual_geo_cth_main.py
+[I 21:23:00.044 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/dual_geo_cth_main.py
+[I 21:23:08.613 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/dual_geo_cth_main.py
+[I 21:24:26.884 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/module/blend_images.py
+[I 21:24:38.890 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/dual_geo_cth_main.py
+[I 21:25:03.947 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/dual_geo_cth_main.py
+[I 21:25:10.889 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/dual_geo_cth_main.py
+[I 21:25:24.941 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/module/blend_images.py
+[I 21:26:12.897 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/module/blend_images.py
+[I 21:26:36.324 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/module/blend_images.py
+[I 21:26:37.502 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/module/blend_images.py
+[I 21:26:42.440 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/module/blend_images.py
+[I 21:26:48.079 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/dual_geo_cth_main.py
+[I 21:27:00.895 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/dual_geo_cth_main.py
+[I 21:27:44.324 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/dual_geo_cth_main.py
+[I 21:27:56.915 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/dual_geo_cth_main.py
+[I 21:28:05.524 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/dual_geo_cth_main.py
+[I 21:28:31.179 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/dual_geo_cth_main.py
+[I 21:28:56.943 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/dual_geo_cth_main.py
+[I 21:29:03.568 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/dual_geo_cth_main.py
+[I 21:29:08.237 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/dual_geo_cth_main.py
+[I 21:29:12.888 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/dual_geo_cth_main.py
+[I 21:29:23.098 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/dual_geo_cth_main.py
+[I 21:29:24.505 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/dual_geo_cth_main.py
+[I 21:29:34.631 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/dual_geo_cth_main.py
+[I 21:29:52.895 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/dual_geo_cth_main.py
+[I 21:30:29.781 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/dual_geo_cth_main.py
+[I 21:30:53.915 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/dual_geo_cth_main.py
+[I 21:31:18.853 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/dual_geo_cth_main.py
+[I 21:31:39.940 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/dual_geo_cth_main.py
+[I 21:31:40.678 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/dual_geo_cth_main.py
+[I 21:32:01.239 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/dual_geo_cth_main.py
+[I 21:32:31.432 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/dual_geo_cth_main.py
+[I 21:33:11.113 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/dual_geo_cth_main.py
+[I 21:33:38.326 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/dual_geo_cth_main.py
+[I 21:33:47.775 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/dual_geo_cth_main.py
+[I 21:33:57.180 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/dual_geo_cth_main.py
+[I 21:34:09.529 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/dual_geo_cth_main.py
+[I 21:34:16.273 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/dual_geo_cth_main.py
+[I 21:34:18.742 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/dual_geo_cth_main.py
+[I 21:34:31.121 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/dual_geo_cth_main.py
+[I 21:34:32.021 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/dual_geo_cth_main.py
+[I 21:34:46.181 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/dual_geo_cth_main.py
+[I 21:35:14.509 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/dual_geo_cth_main.py
+[I 21:36:17.461 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/dual_geo_cth_main.py
+[I 21:36:26.247 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/dual_geo_cth_main.py
+[I 21:36:37.231 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/dual_geo_cth_main.py
+[I 21:37:23.318 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/dual_geo_cth_main.py
+[I 21:38:39.659 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/module/write_output.py
+[I 23:39:28.166 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/dual_geo_cth_main.py
+[I 23:41:01.933 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/dual_geo_cth_main.py
+[I 23:41:59.097 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/dual_geo_cth_main.py
+[I 23:42:02.534 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/dual_geo_cth_main.py
+[I 23:44:50.140 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/dual_geo_cth_main.py
+[I 23:45:11.701 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/module/write_output.py
+[I 23:45:43.559 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/module/write_output.py
+[I 23:46:53.633 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/module/write_output.py
+[I 23:47:54.346 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/module/write_output.py
+[I 23:48:07.025 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/module/write_output.py
+[I 23:48:23.471 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/module/write_output.py
+[I 23:48:56.786 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/module/write_output.py
+[I 23:49:14.234 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/module/write_output.py
+[I 23:49:20.783 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/module/write_output.py
+[I 23:49:35.584 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/module/write_output.py
+[I 23:49:56.851 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/module/write_output.py
+[I 23:50:12.097 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/module/write_output.py
+[I 23:50:24.193 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/module/write_output.py
+[I 23:50:30.718 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/dual_geo_cth_main.py
+[I 23:50:49.325 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/module/write_output.py
+[I 23:50:56.259 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/module/write_output.py
+[I 23:51:18.773 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/module/write_output.py
+[I 23:51:37.017 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/module/write_output.py
+[I 23:51:42.048 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/module/write_output.py
+[I 23:51:47.254 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/dual_geo_cth_main.py
+[I 23:52:37.479 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/module/read_satellite_data.py
+[I 23:52:54.930 LabApp] Kernel shutdown: e76d5eac-314f-43e0-991e-d49773248515
+[I 23:52:57.709 LabApp] EOF on FD 49; stopping reading
+[I 23:52:57.810 LabApp] Terminal 2 closed
+Websocket closed
+[I 23:52:59.947 LabApp] EOF on FD 37; stopping reading
+[I 23:53:00.048 LabApp] Terminal 1 closed
+[I 23:53:03.434 LabApp] New terminal with automatic name: 1
+TermSocket.open: 1
+TermSocket.open: Opened 1
+[I 00:07:44.240 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/dual_geo_cth_main.py
+[I 00:08:19.789 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/plot_code/Plot_Dual_GEO_CTH.ipynb
+[I 00:08:24.747 LabApp] Kernel restarted: 4585d33d-bbac-4fec-a1e7-ba0e974cffd9
+[I 00:10:19.929 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/plot_code/Plot_Dual_GEO_CTH.ipynb
+[I 00:12:34.166 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/dual_geo_cth_main.py
+[I 00:12:54.251 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/dual_geo_cth_main.py
+[I 00:13:24.884 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/dual_geo_cth_main.py
+[I 00:13:31.687 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/dual_geo_cth_main.py
+[I 00:13:41.705 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/dual_geo_cth_main.py
+[I 00:13:51.691 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/dual_geo_cth_main.py
+[I 00:14:00.240 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/dual_geo_cth_main.py
+[I 00:14:08.821 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/dual_geo_cth_main.py
+[I 00:14:29.586 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/dual_geo_cth_main.py
+[I 00:14:44.388 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/dual_geo_cth_main.py
+[I 00:15:12.443 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/dual_geo_cth_main.py
+[I 00:15:25.331 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/dual_geo_cth_main.py
+[I 00:15:34.692 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/dual_geo_cth_main.py
+[I 00:15:39.317 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/dual_geo_cth_main.py
+[I 00:15:47.952 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/dual_geo_cth_main.py
+[I 00:15:51.093 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/dual_geo_cth_main.py
+[I 00:15:59.836 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/dual_geo_cth_main.py
+[I 00:16:10.433 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/dual_geo_cth_main.py
+[I 00:16:45.060 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/module/write_output.py
+[I 00:16:48.216 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/dual_geo_cth_main.py
+TermSocket.open: 1
+TermSocket.open: Opened 1
+[I 00:37:52.354 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/plot_code/Plot_Dual_GEO_CTH.ipynb
+[I 00:37:55.142 LabApp] Kernel restarted: 4585d33d-bbac-4fec-a1e7-ba0e974cffd9
+[I 00:39:52.465 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/plot_code/Plot_Dual_GEO_CTH.ipynb
+[I 18:04:14.402 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/dual_geo_cth_main.py
+[I 18:04:17.167 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/dual_geo_cth_main.py
+[I 18:04:20.445 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/dual_geo_cth_main.py
+[I 18:04:25.561 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/dual_geo_cth_main.py
+[I 18:04:52.700 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/module/write_output.py
+[I 18:05:35.561 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/plot_code/Plot_Dual_GEO_CTH.ipynb
+[I 18:37:33.200 LabApp] Kernel restarted: 4585d33d-bbac-4fec-a1e7-ba0e974cffd9
+[I 18:37:44.785 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/plot_code/Plot_Dual_GEO_CTH.ipynb
+Websocket closed
+Websocket closed
+[I 15:02:17.111 LabApp] Starting buffering for 4585d33d-bbac-4fec-a1e7-ba0e974cffd9:218707db-4cd4-462c-ba17-ac110cf03ea7
+[W 15:03:19.202 LabApp] 404 GET /github?1609912737180 (165.132.26.252) 1.43ms referer=http://165.132.27.211.xip.io:8888/lab?
+[I 15:03:19.489 LabApp] Starting buffering for 4585d33d-bbac-4fec-a1e7-ba0e974cffd9:3b26ec63-74e5-4967-812f-e3edade65cf5
+[I 15:03:19.933 LabApp] Build is up to date
+[W 15:07:40.262 LabApp] 404 GET /github?1609912998237 (165.132.26.252) 1.80ms referer=http://165.132.27.211.xip.io:8888/lab?
+[I 15:07:40.708 LabApp] Build is up to date
+[I 15:07:40.943 LabApp] Starting buffering for 4585d33d-bbac-4fec-a1e7-ba0e974cffd9:a0f10e75-50ef-43ca-bfac-3c7062a1e67c
+TermSocket.open: 1
+TermSocket.open: Opened 1
+[I 15:07:58.731 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/plot_code/Plot_Dual_GEO_CTH.ipynb
+[I 15:08:03.330 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/plot_code/Plot_Dual_GEO_CTH.ipynb
+[I 15:08:07.523 LabApp] Kernel restarted: 4585d33d-bbac-4fec-a1e7-ba0e974cffd9
+[W 15:09:02.110 LabApp] delete /JUPYTER/Dual_GEO_CTH_algorithm_v2/figures/Dual_GEO/DG_CTHs_FY4A_Himawari8_VI006_SW039_202001120300_test_hima_gridded_code_corr.png
+[W 15:09:02.110 LabApp] Skipping trash for /storage1/jhlee/JUPYTER/Dual_GEO_CTH_algorithm_v2/figures/Dual_GEO/DG_CTHs_FY4A_Himawari8_VI006_SW039_202001120300_test_hima_gridded_code_corr.png, on different device to home directory
+[I 15:10:03.610 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/plot_code/Plot_Dual_GEO_CTH.ipynb
+[W 20:01:53.635 LabApp] 403 PUT /lab/api/workspaces/lab?1609930651472 (165.132.26.252): '_xsrf' argument missing from POST
+[W 20:01:53.635 LabApp] '_xsrf' argument missing from POST
+[W 20:01:53.635 LabApp] 403 PUT /lab/api/workspaces/lab?1609930651472 (165.132.26.252) 1.38ms referer=http://165.132.27.211.xip.io:8888/lab?
+[W 20:01:54.416 LabApp] 403 PUT /lab/api/workspaces/lab?1609930652254 (165.132.26.252): '_xsrf' argument missing from POST
+[W 20:01:54.416 LabApp] '_xsrf' argument missing from POST
+[W 20:01:54.416 LabApp] 403 PUT /lab/api/workspaces/lab?1609930652254 (165.132.26.252) 0.71ms referer=http://165.132.27.211.xip.io:8888/lab?
+[W 20:02:04.539 LabApp] 403 PUT /api/contents/JUPYTER/Dual_GEO_CTH_algorithm_v2/plot_code/Plot_Dual_GEO_CTH.ipynb?1609930662374 (165.132.26.252): '_xsrf' argument missing from POST
+[W 20:02:04.539 LabApp] '_xsrf' argument missing from POST
+[W 20:02:04.539 LabApp] 403 PUT /api/contents/JUPYTER/Dual_GEO_CTH_algorithm_v2/plot_code/Plot_Dual_GEO_CTH.ipynb?1609930662374 (165.132.26.252) 1.90ms referer=http://165.132.27.211.xip.io:8888/lab?
+Websocket closed
+[I 20:02:09.319 LabApp] Starting buffering for 4585d33d-bbac-4fec-a1e7-ba0e974cffd9:999eef9d-f7c8-415a-a03e-dbab447bf81e
+[W 20:02:11.554 LabApp] 404 GET /github?1609930669390 (165.132.26.252) 2.06ms referer=http://165.132.27.211.xip.io:8888/lab?
+TermSocket.open: 1
+TermSocket.open: Opened 1
+[I 20:02:13.686 LabApp] Starting buffering for 4585d33d-bbac-4fec-a1e7-ba0e974cffd9:69793c4c-c8b7-448a-84b4-94fd0dadad27
+[I 20:02:13.826 LabApp] Build is up to date
+[I 20:02:22.630 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/plot_code/Plot_Dual_GEO_CTH.ipynb
+[I 20:02:51.367 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/plot_code/Plot_Dual_GEO_CTH.ipynb
+[I 20:02:54.630 LabApp] Kernel restarted: 4585d33d-bbac-4fec-a1e7-ba0e974cffd9
+[I 20:04:51.397 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/plot_code/Plot_Dual_GEO_CTH.ipynb
+[I 20:05:44.740 LabApp] Creating new directory in /JUPYTER/Dual_GEO_CTH_algorithm_v2/result
+[I 20:06:56.861 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/plot_code/Plot_Dual_GEO_CTH.ipynb
+[I 20:07:04.043 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/plot_code/Plot_Dual_GEO_CTH.ipynb
+[I 20:07:05.280 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/plot_code/Plot_Dual_GEO_CTH.ipynb
+[I 20:07:11.017 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/plot_code/Plot_Dual_GEO_CTH.ipynb
+[I 20:10:30.888 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/dual_geo_cth_main.py
+[I 20:10:35.989 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/dual_geo_cth_main.py
+[I 20:10:41.441 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/dual_geo_cth_main.py
+[I 20:11:29.593 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/dual_geo_cth_main.py
+[I 20:12:29.044 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/dual_geo_cth_main.py
+[I 20:14:00.300 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/dual_geo_cth_main.py
+[I 20:14:16.691 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/dual_geo_cth_main.py
+[I 20:14:25.190 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/dual_geo_cth_main.py
+[I 20:16:52.963 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/dual_geo_cth_main.py
+[I 20:17:01.922 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/dual_geo_cth_main.py
+[I 20:17:26.853 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/dual_geo_cth_main.py
+[I 20:17:38.475 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/dual_geo_cth_main.py
+[I 20:17:49.366 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/dual_geo_cth_main.py
+[I 20:17:50.615 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/dual_geo_cth_main.py
+[I 20:17:56.662 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/dual_geo_cth_main.py
+[I 20:17:58.301 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/dual_geo_cth_main.py
+[I 20:18:15.757 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/dual_geo_cth_main.py
+[I 20:19:14.869 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/dual_geo_cth_main.py
+[I 20:19:23.548 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/dual_geo_cth_main.py
+[I 20:19:34.882 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/dual_geo_cth_main.py
+[I 20:20:02.381 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/dual_geo_cth_main.py
+[I 20:20:16.258 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/dual_geo_cth_main.py
+[I 20:20:37.535 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/dual_geo_cth_main.py
+[I 20:20:57.850 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/module/write_output.py
+[I 20:21:51.110 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/define_input_parameters.py
+[I 20:22:08.469 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/module/write_output.py
+[I 20:22:12.562 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/module/write_output.py
+[I 20:22:16.701 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/module/write_output.py
+[I 20:22:19.603 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/module/write_output.py
+[I 20:22:41.535 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/module/write_output.py
+[I 20:22:51.771 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/module/write_output.py
+[I 20:23:00.699 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/module/write_output.py
+[I 20:23:12.856 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/module/write_output.py
+[I 20:23:54.846 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/dual_geo_cth_main.py
+[I 20:23:59.688 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/dual_geo_cth_main.py
+[I 20:24:32.197 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/dual_geo_cth_main.py
+[I 20:24:34.825 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/dual_geo_cth_main.py
+[I 20:38:44.656 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/module/read_satellite_data.py
+[I 20:38:48.574 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/module/read_satellite_data.py
+[I 20:39:02.519 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/module/read_satellite_data.py
+[I 20:41:44.007 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/module/read_satellite_data.py
+[I 20:41:57.400 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/module/read_satellite_data.py
+[I 20:43:35.578 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/module/read_satellite_data.py
+[I 20:43:45.665 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/module/read_satellite_data.py
+[I 20:44:22.111 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/module/read_satellite_data.py
+[I 20:44:27.458 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/module/read_satellite_data.py
+[I 20:44:57.989 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/module/read_satellite_data.py
+[I 20:45:20.936 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/module/read_satellite_data.py
+[I 20:45:27.360 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/module/read_satellite_data.py
+[I 20:45:35.063 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/module/read_satellite_data.py
+[I 20:45:54.931 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/module/read_satellite_data.py
+[I 21:01:24.831 LabApp] Starting buffering for 4585d33d-bbac-4fec-a1e7-ba0e974cffd9:5c0ad579-7199-4f78-8344-d45398c63c98
+Websocket closed
+[I 21:01:26.207 LabApp] Restoring connection for 4585d33d-bbac-4fec-a1e7-ba0e974cffd9:5c0ad579-7199-4f78-8344-d45398c63c98
+TermSocket.open: 1
+TermSocket.open: Opened 1
+[I 22:32:19.875 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/plot_code/Plot_Dual_GEO_CTH.ipynb
+[I 22:33:19.821 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/define_input_parameters.py
+[I 23:02:28.952 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/dual_geo_cth_main.py
+[I 23:03:13.479 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/dual_geo_cth_main.py
+[I 11:17:52.368 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/define_input_parameters.py
+[I 11:19:17.157 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/plot_code/Plot_Dual_GEO_CTH.ipynb
+[I 11:33:14.642 LabApp] EOF on FD 16; stopping reading
+[I 11:33:14.761 LabApp] Terminal 1 closed
+Websocket closed
+[I 11:33:21.693 LabApp] New terminal with automatic name: 1
+TermSocket.open: 1
+TermSocket.open: Opened 1
+[W 11:39:36.744 LabApp] delete /JUPYTER/Dual_GEO_CTH_algorithm_v2/module/read_satellite_data-Copy1.py
+[W 11:39:36.761 LabApp] Skipping trash for /storage1/jhlee/JUPYTER/Dual_GEO_CTH_algorithm_v2/module/read_satellite_data-Copy1.py, on different device to home directory
+[W 11:39:36.772 LabApp] delete /JUPYTER/Dual_GEO_CTH_algorithm_v2/module/match_satellite_images-Copy1.py
+[W 11:39:36.772 LabApp] Skipping trash for /storage1/jhlee/JUPYTER/Dual_GEO_CTH_algorithm_v2/module/match_satellite_images-Copy1.py, on different device to home directory
+[W 11:39:36.773 LabApp] delete /JUPYTER/Dual_GEO_CTH_algorithm_v2/module/match_satellite_images-Copy2.py
+[W 11:39:36.774 LabApp] Skipping trash for /storage1/jhlee/JUPYTER/Dual_GEO_CTH_algorithm_v2/module/match_satellite_images-Copy2.py, on different device to home directory
+[I 11:40:09.292 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/module/read_satellite_data.py
+[I 11:40:23.169 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/module/read_satellite_data.py
+[I 11:40:27.694 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/module/read_satellite_data.py
+[I 11:40:34.658 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/module/read_satellite_data.py
+[I 11:41:02.245 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/module/read_satellite_data.py
+[I 11:41:25.919 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/module/blend_images.py
+[I 11:41:27.726 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/module/blend_images.py
+[I 11:41:46.066 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/module/select_satellites.py
+[I 11:41:47.927 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/module/select_satellites.py
+[I 11:41:56.476 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/module/select_satellites.py
+[I 11:42:00.034 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/module/select_satellites.py
+[I 11:42:07.180 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/module/select_satellites.py
+[I 11:42:24.104 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/module/select_satellites.py
+[I 11:42:26.493 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/module/select_satellites.py
+[I 11:42:41.380 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/module/select_satellites.py
+[I 11:43:09.056 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/module/select_satellites.py
+[I 11:43:33.487 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/module/select_satellites.py
+[I 11:43:37.464 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/module/select_satellites.py
+[I 11:43:43.456 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/module/select_satellites.py
+[I 11:44:32.821 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/dual_geo_cth_main.py
+[I 11:44:42.884 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/dual_geo_cth_main.py
+[I 11:44:50.391 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/dual_geo_cth_main.py
+[I 11:44:56.402 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/dual_geo_cth_main.py
+[I 11:45:21.100 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/dual_geo_cth_main.py
+[I 11:46:10.298 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/dual_geo_cth_main.py
+[I 11:46:15.648 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/dual_geo_cth_main.py
+[I 11:46:20.915 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/module/select_satellites.py
+[I 11:46:26.931 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/module/select_satellites.py
+[I 11:47:12.171 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/module/match_satellite_images.py
+[I 11:47:19.604 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/module/match_satellite_images.py
+[I 13:47:08.416 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/plot_code/Plot_Dual_GEO_CTH.ipynb
+[I 13:47:17.637 LabApp] Kernel restarted: 4585d33d-bbac-4fec-a1e7-ba0e974cffd9
+[I 13:47:31.993 LabApp] Kernel restarted: 4585d33d-bbac-4fec-a1e7-ba0e974cffd9
+[I 13:47:45.808 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/plot_code/Plot_Dual_GEO_CTH.ipynb
+[I 13:47:49.872 LabApp] Kernel restarted: 4585d33d-bbac-4fec-a1e7-ba0e974cffd9
+[I 13:49:18.466 LabApp] Creating new directory in /JUPYTER/Dual_GEO_CTH_algorithm_v2/figures/Dual_GEO
+[I 13:49:26.342 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/plot_code/Plot_Dual_GEO_CTH.ipynb
+[I 13:49:28.838 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/plot_code/Plot_Dual_GEO_CTH.ipynb
+[I 13:49:33.686 LabApp] Kernel restarted: 4585d33d-bbac-4fec-a1e7-ba0e974cffd9
+[I 13:49:58.939 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/plot_code/Plot_Dual_GEO_CTH.ipynb
+[I 13:50:02.861 LabApp] Kernel restarted: 4585d33d-bbac-4fec-a1e7-ba0e974cffd9
+[I 13:50:24.379 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/plot_code/Plot_Dual_GEO_CTH.ipynb
+[I 15:23:55.386 LabApp] Kernel restarted: 4585d33d-bbac-4fec-a1e7-ba0e974cffd9
+[I 15:24:48.033 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/plot_code/Plot_Dual_GEO_CTH.ipynb
+[I 17:35:23.604 LabApp] Kernel restarted: 4585d33d-bbac-4fec-a1e7-ba0e974cffd9
+[I 17:36:47.650 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/plot_code/Plot_Dual_GEO_CTH.ipynb
+[I 17:36:51.042 LabApp] Kernel restarted: 4585d33d-bbac-4fec-a1e7-ba0e974cffd9
+[I 17:38:47.807 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/plot_code/Plot_Dual_GEO_CTH.ipynb
+[I 18:49:23.138 LabApp] Kernel restarted: 4585d33d-bbac-4fec-a1e7-ba0e974cffd9
+[I 18:51:07.209 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/plot_code/Plot_Dual_GEO_CTH.ipynb
+[I 18:55:30.237 LabApp] Creating new notebook in /JUPYTER/Dual_GEO_CTH_algorithm_v2/other
+[I 18:55:31.711 LabApp] Kernel started: 8f50cdfa-372c-4d8f-9e2c-190a56af87f0
+[I 18:57:08.693 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/other/resample_fy4a.ipynb
+[I 18:58:07.791 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/other/resample_fy4a.ipynb
+[I 18:58:16.660 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/other/resample_fy4a.ipynb
+[I 18:58:30.460 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/other/resample_fy4a.ipynb
+[I 18:58:54.681 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/other/resample_fy4a.ipynb
+[I 18:59:01.324 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/other/resample_fy4a.ipynb
+[I 18:59:41.104 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/other/resample_fy4a.ipynb
+[I 19:00:09.871 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/other/resample_fy4a.ipynb
+[I 19:00:25.482 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/other/resample_fy4a.ipynb
+[I 19:01:12.590 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/other/resample_fy4a.ipynb
+[I 19:01:19.980 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/other/resample_fy4a.ipynb
+[I 19:02:06.308 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/other/resample_fy4a.ipynb
+[I 19:02:10.759 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/other/resample_fy4a.ipynb
+[I 19:02:35.823 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/other/resample_fy4a.ipynb
+[I 19:02:40.620 LabApp] Kernel restarted: 8f50cdfa-372c-4d8f-9e2c-190a56af87f0
+[I 19:04:35.848 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/other/resample_fy4a.ipynb
+[I 19:05:01.982 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/other/resample_fy4a.ipynb
+[I 19:05:13.597 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/other/resample_fy4a.ipynb
+[I 19:05:38.563 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/other/resample_fy4a.ipynb
+[I 19:05:41.990 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/other/resample_fy4a.ipynb
+[I 19:05:49.500 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/other/resample_fy4a.ipynb
+[I 19:05:58.780 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/other/resample_fy4a.ipynb
+[I 19:06:20.995 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/other/resample_fy4a.ipynb
+[I 19:06:31.295 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/other/resample_fy4a.ipynb
+[I 19:07:27.488 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/other/resample_fy4a.ipynb
+[I 19:07:48.193 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/other/resample_fy4a.ipynb
+[I 19:07:52.817 LabApp] Kernel restarted: 8f50cdfa-372c-4d8f-9e2c-190a56af87f0
+[I 19:08:01.120 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/other/resample_fy4a.ipynb
+[I 19:08:11.420 LabApp] Kernel restarted: 8f50cdfa-372c-4d8f-9e2c-190a56af87f0
+[I 19:10:02.105 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/other/resample_fy4a.ipynb
+[I 19:12:03.106 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/other/resample_fy4a.ipynb
+[I 19:18:08.641 LabApp] Kernel shutdown: 8f50cdfa-372c-4d8f-9e2c-190a56af87f0
+[I 20:27:10.634 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/plot_code/Plot_Dual_GEO_CTH.ipynb
+[I 20:27:14.760 LabApp] Kernel restarted: 4585d33d-bbac-4fec-a1e7-ba0e974cffd9
+[I 20:28:05.807 LabApp] Kernel restarted: 4585d33d-bbac-4fec-a1e7-ba0e974cffd9
+[I 20:29:10.697 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/plot_code/Plot_Dual_GEO_CTH.ipynb
+[I 20:29:30.620 LabApp] Kernel restarted: 4585d33d-bbac-4fec-a1e7-ba0e974cffd9
+[I 20:31:10.804 LabApp] Saving file at /JUPYTER/Dual_GEO_CTH_algorithm_v2/plot_code/Plot_Dual_GEO_CTH.ipynb
+[I 17:36:07.920 LabApp] Starting buffering for 4585d33d-bbac-4fec-a1e7-ba0e974cffd9:5c0ad579-7199-4f78-8344-d45398c63c98
+[I 17:36:10.866 LabApp] Kernel shutdown: 4585d33d-bbac-4fec-a1e7-ba0e974cffd9
+[C 17:36:23.026 LabApp] received signal 15, stopping
+[I 17:36:23.033 LabApp] Shutting down 0 kernels
