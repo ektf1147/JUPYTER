@@ -715,3 +715,6 @@ TermSocket.open: Opened 1
 [I 17:36:10.866 LabApp] Kernel shutdown: 4585d33d-bbac-4fec-a1e7-ba0e974cffd9
 [C 17:36:23.026 LabApp] received signal 15, stopping
 [I 17:36:23.033 LabApp] Shutting down 0 kernels
+
+
+'test'
