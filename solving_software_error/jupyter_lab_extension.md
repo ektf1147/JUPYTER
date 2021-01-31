@@ -5,8 +5,10 @@
    Enter the following command in the terminal.
   
    > **jupyter labextension install 'name of jupyterlab extension'**
+   
+   [Example]
   
-   ex) jupyter labextension install @jupyterlab/google-drive
+   > **jupyter labextension install @jupyterlab/google-drive**
 
 
 
@@ -23,5 +25,5 @@
   
    Enter the following command in the terminal to find out the exact path.
   
-   > jupyter lab path
+   > **jupyter lab path**
   
