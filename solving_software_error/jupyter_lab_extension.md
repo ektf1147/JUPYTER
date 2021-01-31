@@ -14,8 +14,7 @@
 
    Enter the following command in the terminal.
   
-   **jupyter labextension list**
-
+   **<u>**jupyter labextension list**</u>**
 
   
 1. **When jupyterlab extension is not working**
