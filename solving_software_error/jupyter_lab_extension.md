@@ -4,7 +4,7 @@
 
    Enter the following command in the terminal.
   
-   **jupyter labextension install 'name of jupyterlab extension'**
+   > **jupyter labextension install 'name of jupyterlab extension'**
   
    ex) jupyter labextension install @jupyterlab/google-drive
 
@@ -14,7 +14,7 @@
 
    Enter the following command in the terminal.
   
-   **jupyter labextension list**
+   > **jupyter labextension list**
 
   
 1. **When jupyterlab extension is not working**
@@ -23,5 +23,5 @@
   
    Enter the following command in the terminal to find out the exact path.
   
-   jupyter lab path
+   > jupyter lab path
   
