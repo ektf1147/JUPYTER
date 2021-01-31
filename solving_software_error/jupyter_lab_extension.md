@@ -9,12 +9,14 @@
    ex) jupyter labextension install @jupyterlab/google-drive
 
 
+
 1. **Check install**
 
    Enter the following command in the terminal.
   
    **jupyter labextension list**
-  
+
+
   
 1. **When jupyterlab extension is not working**
 
