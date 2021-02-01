@@ -19,7 +19,7 @@
    > **jupyter labextension list**
 
   
-1. **When jupyterlab extension is not working**
+1. **jupyter lab build Error**
 
    **Removing the 'jupyter/lab/settings/build_config.json'** file worked for me.
   
