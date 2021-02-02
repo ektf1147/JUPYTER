@@ -10,4 +10,3 @@
 
 - Improve the Dual-GEO CTH algorithm
 1) Change satellite data: FY-2E to FY-4A
-2) Multiple channel selection
